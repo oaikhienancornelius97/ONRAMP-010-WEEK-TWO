@@ -1,0 +1,133 @@
+@media screen {
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url(/ONRAMP-010-WEEK-TWO/starter-code/utils/images/hero-bg-desktop.jpg);
+    height: 600px;
+    width: 100%;
+}
+header h1{
+    margin: 0;
+    color: #ffff;
+}
+header .container{
+    margin: 0% 10%;
+    padding: 5% 0%;
+}
+header .container .first-parent{
+    margin-top: 12%;
+    color: #fff;
+}
+
+section{
+    height: 250px;
+    width: 1583px;
+}
+section .parent-child{
+    background-image: url(/ONRAMP-010-WEEK-TWO/starter-code/utils/patterns/pattern-curve-bottom-right.svg);
+}
+section .parent-child .first-child{
+    text-align: center;
+    padding-top: 7%;
+    padding-left: 10%;
+}
+
+
+
+/* aside designs */
+aside{
+    /* margin: 23% 15% 0% 0%; */
+    margin: 23% 15% 0% 0%;
+    /* position: relative; */
+    position: static;
+    height: 100%;
+    background-color: white;
+    width: 400px;
+    padding: 20px 60px 25px 60px;
+    float: right;
+    box-shadow: 0px 0px 20px 5px #888888;
+}
+aside .card input{
+    border: none;
+    width: 90%;
+    border-bottom: 2px solid #cfc5c5;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+
+}
+aside .card form .first-child{
+    display: flex;
+    align-items: center;
+}
+aside .card form .first-child label{
+    margin-right: 20px;
+}
+aside .card form .first-child input{
+    width: 15%;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+aside .card form .second-child{
+    display: flex;
+    align-items: center;
+}
+aside .card form .second-child label{
+    margin-right: 20px;
+}
+aside .card form .second-child input{
+    width: 15%;
+    margin: 0px 10px;
+    text-align: center;
+}
+aside .card form .second-child select{
+    border: none;
+    border-bottom: 2px solid #cfc5c5;
+    margin-left: 10px;
+    padding: 14px 0px 13px 0px;
+    width: 20%;
+}
+
+
+aside .card form .third-child{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #cfc5c5;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+aside .card form input[type = submit]{
+    width: 100%;
+    background: #181717;
+    color: #ffff;
+    border-bottom: none;
+}
+
+
+/* for footer designs */
+footer{
+    background-color: #000000e8;
+    height: 200px;
+    color: #ffff;
+    margin: 0;
+}
+footer h1{
+    margin: 0;
+}
+footer .container{
+    margin: 0% 10%;
+    padding: 50px 0px;
+    justify-content: space-around;
+    display: flex;
+    font-display: flex;
+    align-items: center;
+}
