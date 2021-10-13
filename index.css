@@ -1,133 +1,90 @@
-@media screen {
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.landing-page{
+    text-align: center;
+}
+.landing-page .main-logo{
+    padding: 2% 0%;
+    margin: 2% 0%;
+    font-size: 10%;
+}
+.landing-page{
+    width: 100%;
+    height: 100%;
+}
+.landing-page .header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.landing-page .header .header-first-stage{
+    left: 10px;
+}
+.landing-page .header .header-second-stage{
+    margin: 0px 70px;
+}
+.landing-page .header .header-second-stage button{
+    background-color: #1b476d;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    padding: 0px 35px;
+}
+.landing-page .header .header-third-stage{
+}
+.landing-page .main-body .body-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     
 }
-body{
-    margin: 0;
-    padding: 0;
-}
-a{
-    text-decoration: none;
-}
-header{
-    background-image: url(/ONRAMP-010-WEEK-TWO/starter-code/utils/images/hero-bg-desktop.jpg);
-    height: 600px;
-    width: 100%;
-}
-header h1{
-    margin: 0;
-    color: #ffff;
-}
-header .container{
-    margin: 0% 10%;
-    padding: 5% 0%;
-}
-header .container .first-parent{
-    margin-top: 12%;
-    color: #fff;
-}
-
-section{
-    height: 250px;
-    width: 1583px;
-}
-section .parent-child{
-    background-image: url(/ONRAMP-010-WEEK-TWO/starter-code/utils/patterns/pattern-curve-bottom-right.svg);
-}
-section .parent-child .first-child{
-    text-align: center;
-    padding-top: 7%;
-    padding-left: 10%;
+.landing-page .main-body .body-image img{
+    width: 15rem;
+    border-radius: 10px;
+    margin: 0px 25px;
 }
 
 
-
-/* aside designs */
-aside{
-    /* margin: 23% 15% 0% 0%; */
-    margin: 23% 15% 0% 0%;
-    /* position: relative; */
-    position: static;
-    height: 100%;
-    background-color: white;
-    width: 400px;
-    padding: 20px 60px 25px 60px;
-    float: right;
-    box-shadow: 0px 0px 20px 5px #888888;
-}
-aside .card input{
-    border: none;
-    width: 90%;
-    border-bottom: 2px solid #cfc5c5;
-    padding: 15px 10px;
-    margin-bottom: 10px;
-    justify-content: center;
-
-}
-aside .card form .first-child{
-    display: flex;
-    align-items: center;
-}
-aside .card form .first-child label{
-    margin-right: 20px;
-}
-aside .card form .first-child input{
-    width: 15%;
-    margin: 0px 10px;
-    text-align: center;
-}
-
-aside .card form .second-child{
-    display: flex;
-    align-items: center;
-}
-aside .card form .second-child label{
-    margin-right: 20px;
-}
-aside .card form .second-child input{
-    width: 15%;
-    margin: 0px 10px;
-    text-align: center;
-}
-aside .card form .second-child select{
-    border: none;
-    border-bottom: 2px solid #cfc5c5;
-    margin-left: 10px;
-    padding: 14px 0px 13px 0px;
-    width: 20%;
-}
-
-
-aside .card form .third-child{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 2px solid #cfc5c5;
-    margin: 20px 0px;
-    font-weight: bold;
-}
-aside .card form input[type = submit]{
-    width: 100%;
-    background: #181717;
-    color: #ffff;
-    border-bottom: none;
-}
-
-
-/* for footer designs */
 footer{
-    background-color: #000000e8;
-    height: 200px;
-    color: #ffff;
+    /* padding: 0;
     margin: 0;
+    background-color: #ff0000cd;
+    overflow: hidden;
+    height: 300px;
+    background-image: url(/ONRAMP-010-WEEK-ONE/starter-code/utils/assets/images/image-footer.jpg); */
+    /* background: url(/ONRAMP-010-WEEK-ONE/starter-code/utils/assets/images/image-footer.jpg) 0 0 no-repeat fixed; */
+    /* height: 300px;
+    overflow: hidden;
+    color: red;
+    background-color: transparent;
+    background: rgb(255, 0, 0, 0.4);
+    opacity: 0.4; */
 }
-footer h1{
-    margin: 0;
+footer .bottom-parent{
+    background-image: url(image-footer.jpg);
+    height: 150px;
 }
-footer .container{
-    margin: 0% 10%;
-    padding: 50px 0px;
-    justify-content: space-around;
+footer .footer-container{
+    background-color: rgb(77, rgb(77, 150, 168), blue);
+    height: 150px;
+    opacity: 80%;
     display: flex;
     font-display: flex;
+    justify-content: space-around;
+    text-align: center;
     align-items: center;
+}
+.footer-button{
+    background-color: rgb(123, 95, 177);
+    color: #fff;
+    padding: 9px;
+    border: 0px;
+    border-radius: 20px;
 }
