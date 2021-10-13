@@ -8,68 +8,83 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="landing-page">
-        <div class="main-logo">
-            <a href="#">
-                <img src="logo.svg" alt="logo">
-            </a>
+    <aside>
+        <div class="card">
+            <form action="">
+                <input type="text" placeholder="Name"><br>
+                <input type="text" placeholder="Email"><br>
+
+                <div class="first-child">
+                    <label>Pick a date </label>
+                    <input type="text" placeholder="MM">
+                    <input type="text" placeholder="DD">
+                    <input type="text" placeholder="YYYY">
+                </div>
+                
+                <div class="second-child">
+                    <label for="">Pick a time </label>
+                    <input type="text" placeholder="09">
+                    <input type="text" placeholder="00"><br>
+                    <select name="" id="">
+                        <option value="">AM</option>
+                        <option value="">PM</option>
+                    </select>
+                </div>
+                
+                <div class="third-child">
+                    <img src="/ONRAMP-010-WEEK-TWO/starter-code/utils/icons/icon-minus.svg" alt="icon-minus">
+                    <p>4 Persons</p>
+                    <img src="/ONRAMP-010-WEEK-TWO/starter-code/utils/icons/icon-plus.svg" alt="icon-plus">
+                </div>
+
+                <input type="submit" value="MAKE RESERVATION">
+            </form>
         </div>
-        <div class="header">
-            <div class="header-first-stage">
-                <img src="image-hero-left.png" alt="image hero left">
-            </div>
+    </aside>
 
-            <div class="header-second-stage">
-                <h2>Group Chat<br>for Everyone</h2>
-                <p>Meet makes it easy to connect with others face-to-face virtually <br>and collaborate across any device</p>
-                <button>Download vl.3</button>
-                <button>What is it?</button>
-            </div>
 
-            <div class="header-third-stage">
-                <img src="image-hero-right.png" alt="image hero right">
-            </div>
-        </div>
-
-        <div class="main-body">
-            <div class="body-image">
-                <div class="first-image">
-                    <img src="image-woman-in-videocall.jpg" alt="image woman in videocall">
-                </div>
-                <div class="second-image">
-                    <img src="image-women-videochatting.jpg" alt="image women videochatting">
-                </div>
-                <div class="third-image">
-                    <img src="image-men-in-meeting.jpg" alt="image men in meeting">
-                </div>
-                <div class="fouth-image">
-                    <img src="image-man-texting.jpg" alt="image man texting">
-                </div>
+    <header>    
+        <div class="container">
+            <a href="#"><h1>dine</h1></a>
+            <div class="first-parent">
+                <h1>Reservations</h1>
+                <p>
+                    We can't wait to host you, if you have any<br>
+                    special requiremennt feel free to call on<br>
+                    phone number below. We'll be happy to accomodate you.
+                </p>
             </div>
         </div>
+    </header>
 
-        <section>
+
+    <section>
+        <div class="parent-child">
+            <div class="first-child">
+                <img src="/ONRAMP-010-WEEK-TWO/starter-code/utils/patterns/pattern-lines.svg" alt="pattern-lines">
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
             <div>
-                <h6>BUILT FOR MODERN USE</h6><br>
-                <h3>Smarter meeting, all <br>
-                in one place</h3>
-                <p>Send messages, share files, show your screen, and record your<br> 
-                meeting - all in one workspace. Control who can join with<br> 
-                invite - only team access, data encryption and data export</p>
+                <h1>dine</h1>
             </div>
-        </section>
-        <footer>
-            <div class="bottom-parent">
-                <div class="footer-container">    
-                    <h1>Experience more<br> together</h1>
-                    <p>Stay connected with reliable HD meetings<br>
-                    and unlimited one-on-one and group<br>
-                    video series
-                    </p>
-                    <button class="footer-button">Download v1.3</button>
-                </div>
+            <div>
+                <p>MARTWAITE. SEDBERGH <br>CUMBRIA <br>+00 44 123 4567</p>
             </div>
-        </footer>
-    </div>
+            <div>
+                <p>OPEN TIMES <br>
+                    MON - FRI: 09:00 AM - 10:00 PM <br>
+                    SAT - SUN: 09:00 AM - 11:30 PM
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="/main.js"></script>
 </body>
 </html>
