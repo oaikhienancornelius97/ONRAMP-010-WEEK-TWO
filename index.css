@@ -53,15 +53,19 @@ body{
 
 
 footer{
-    padding: 0;
+    /* padding: 0;
     margin: 0;
+    background-color: #ff0000cd;
     overflow: hidden;
     height: 300px;
-    background: url(/ONRAMP-010-WEEK-ONE/starter-code/utils/assets/images/image-footer.jpg) 0 0 no-repeat fixed;
+    background-image: url(/ONRAMP-010-WEEK-ONE/starter-code/utils/assets/images/image-footer.jpg); */
+    /* background: url(/ONRAMP-010-WEEK-ONE/starter-code/utils/assets/images/image-footer.jpg) 0 0 no-repeat fixed; */
+    /* height: 300px;
+    overflow: hidden;
     color: red;
     background-color: transparent;
     background: rgb(255, 0, 0, 0.4);
-    opacity: 0.4;
+    opacity: 0.4; */
 }
 footer .bottom-parent{
     background-image: url(image-footer.jpg);
@@ -84,6 +88,3 @@ footer .footer-container{
     border: 0px;
     border-radius: 20px;
 }
-
-
-
